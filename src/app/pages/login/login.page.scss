@@ -1,0 +1,54 @@
+$white-color: #FEF9E7;
+$height100: 100%;
+
+ion-content {
+    --background: none;
+    background-image: url('/assets/img/bg.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ion-item {
+    --background: none;
+    background-color: transparent; 
+}
+
+ion-grid {
+    width:100%;
+    height: $height100;
+   }
+
+ion-row {
+    height: $height100;
+}
+
+ion-col {
+    border: 1px solid #fff;
+}
+
+ion-button {
+    font-weight: 300;
+}
+
+ion-input {
+    background-color: transparent; 
+}
+@media (min-width: 240px) and (max-width: 768px) {
+    ion-grid {
+        background: $white-color;
+    }
+    ion-col {
+        border: none;
+    }
+}
+
+h1 { 
+    display: block;
+    font-size: 2.1em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+  }

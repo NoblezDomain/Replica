@@ -1,0 +1,43 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/theming/
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Montserrat Regular'), local('Montserrat-Regular'), url(https://fonts.gstatic.com/s/montserrat/v13/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/** Ionic CSS Variables **/:root {--ion-font-family: 'Montserrat'; --ion-color-primary: #942160; --ion-color-primary-rgb: 148,33,96; --ion-color-primary-contrast: #ffffff; --ion-color-primary-contrast-rgb: 255,255,255; --ion-color-primary-shade: #821d54; --ion-color-primary-tint: #9f3770; --ion-color-secondary: #f15669; --ion-color-secondary-rgb: 241,86,105; --ion-color-secondary-contrast: #ffffff; --ion-color-secondary-contrast-rgb: 255,255,255; --ion-color-secondary-shade: #d44c5c; --ion-color-secondary-tint: #f26778; --ion-color-tertiary: #7044ff; --ion-color-tertiary-rgb: 112,68,255; --ion-color-tertiary-contrast: #ffffff; --ion-color-tertiary-contrast-rgb: 255,255,255; --ion-color-tertiary-shade: #633ce0; --ion-color-tertiary-tint: #7e57ff; --ion-color-success: #10dc60; --ion-color-success-rgb: 16,220,96; --ion-color-success-contrast: #ffffff; --ion-color-success-contrast-rgb: 255,255,255; --ion-color-success-shade: #0ec254; --ion-color-success-tint: #28e070; --ion-color-warning: #ffce00; --ion-color-warning-rgb: 255,206,0; --ion-color-warning-contrast: #ffffff; --ion-color-warning-contrast-rgb: 255,255,255; --ion-color-warning-shade: #e0b500; --ion-color-warning-tint: #ffd31a; --ion-color-danger: #f04141; --ion-color-danger-rgb: 245,61,61; --ion-color-danger-contrast: #ffffff; --ion-color-danger-contrast-rgb: 255,255,255; --ion-color-danger-shade: #d33939; --ion-color-danger-tint: #f25454; --ion-color-dark: #222428; --ion-color-dark-rgb: 34,34,34; --ion-color-dark-contrast: #ffffff; --ion-color-dark-contrast-rgb: 255,255,255; --ion-color-dark-shade: #1e2023; --ion-color-dark-tint: #383a3e; --ion-color-medium: #989aa2; --ion-color-medium-rgb: 152,154,162; --ion-color-medium-contrast: #ffffff; --ion-color-medium-contrast-rgb: 255,255,255; --ion-color-medium-shade: #86888f; --ion-color-medium-tint: #a2a4ab; --ion-color-light: #f4f5f8; --ion-color-light-rgb: 244,244,244; --ion-color-light-contrast: #ffffff; --ion-color-light-contrast-rgb: 255,255,255; --ion-color-light-shade: #d7d8da; --ion-color-light-tint: #f5f6f9; }

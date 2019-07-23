@@ -1,0 +1,50 @@
+$white-color: #FEF9E7;
+$height100: 100%;
+
+ion-content {
+    --background: none;
+    background-image: url('/assets/img/gradient.jpg');
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+ion-item {
+    --background: none;
+    background-color: transparent; 
+}
+ion-card {
+    --background: #f7f7f7;
+}
+ion-grid {
+    width:100%;
+    height: $height100;
+   }
+
+ion-row {
+    height: $height100;
+}
+
+ion-col {
+    border: 1px solid #fff;
+}
+
+ion-button {
+    font-weight: 300;
+}
+
+ion-input {
+    background-color: transparent; 
+}
+@media (min-width: 240px) and (max-width: 768px) {
+    ion-grid {
+        background: $white-color;
+    }
+    ion-col {
+        border: none;
+    }
+}
+
+.card {
+    background-color: #f7f7f7;
+  }
